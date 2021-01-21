@@ -1,0 +1,77 @@
+#header{
+    background-color: #4778c6;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+#topText, #bottomText{
+    padding: 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+#rgb_code{
+    line-height: 1.2;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rgb_container{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.controlPanel{
+    background-color: white;
+    color: #4778c6;
+}
+
+.body{
+    background-color: black;
+}
+
+#body{
+    margin-top: 15px;
+}
+
+.controlPanel button{
+    background: transparent;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.colorButton{
+    padding: 80px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.whiteBackground{
+    background-color: white;
+}
+
+#restart:hover{
+    background-color:  #4778c6;
+    color: white;
+}
+
+#easy:hover{
+    background-color:  #4778c6;
+    color: white;
+}
+
+#hard:hover{
+    background-color:  #4778c6;
+    color: white;
+}
+
+.clickedOn{
+    background-color: #4778c6 !important;
+    color: white;
+}
+

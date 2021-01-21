@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>What Color Is This?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"> 
+</head>
+<body class = "body">
+    <div class = "text-center" id="header">
+        <p id="topText">THE GREAT</p>
+        <p id="rgb_code">RGB(
+            <span class="rgb_container">
+                <span id="red">0</span>,
+                <span id="green">0</span>,
+                <span id="blue">0</span>
+            </span>)</p>
+        <p id="bottomText">GUESSING GAME</p> 
+    </div>
+    <div class = "d-flex justify-content-center row controlPanel" id="controlPanel">
+        <div class="col-3.5"></div>
+        <div class="d-flex justify-content-between col-5">
+            <button id="restart">NEW COLORS</button>
+            <span id="message"></span>
+            <div class="mode">
+                <button id="easy">EASY</button>
+                <button id="hard">HARD</button>
+            </div>
+        </div> 
+        <div class="col-3.5"></div>
+    </div>
+    <div class="row" id="body">
+        <div class="col-3"></div>
+        <div class="col-6" id="colorButtons">
+            <div class="row d-flex justify-content-center" id="first_row">
+                <button class = "colorButton whiteBackground" id="color1"></button>
+                <button class = "colorButton whiteBackground" id="color2"></button>
+                <button class = "colorButton whiteBackground" id="color3"></button>
+            </div>
+            <div class="row d-flex justify-content-center" id="second_row">
+                <button class = "colorButton whiteBackground" id="color4"></button>
+                <button class = "colorButton whiteBackground" id="color5"></button>
+                <button class = "colorButton whiteBackground" id="color6"></button>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
